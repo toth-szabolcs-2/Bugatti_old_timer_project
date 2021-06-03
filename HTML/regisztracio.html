@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/regisztracio.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
     <title>Regisztráció</title>
   </head>
   <body>
@@ -27,21 +28,46 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 
 
-<div class="container">
-<br>  <p class="text-center">More bootstrap 4 components on <a href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com</a></p>
-<hr>
 
 
 
 
+<div id="container">
+
+    <nav>
+      <div id="logo">
+        Bugatti Old Timer
+      </div>
+      <ul>
+        <li><a href="../HTML/fooldal.html">Kezdőlap</a></li>
+        <li><a href="../HTML/markatortenete.html">A Márka Története</a></li>
+        <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">4 Old Timer &nbsp;<i class="fa fa-caret-down"></i></a>
+          <div class="dd">
+            <div id="up_arrow"></div>
+          <ul>
+            
+            <li><a href="../HTML/bugattitype2.html">Type 2</a></li>
+            <li><a href="../HTML/bugattitype37.html"> Type 37</a></li>
+            <li><a href="../HTML/bugattitype51.html"> Type 51</a></li>
+            <li><a href="../HTML/bugattitype57.html"> Type 57</a></li>
+          </ul>
+          </div>
+        </li>
+        <li><a href="../HTML/kapcsolatfelvetel.html">Kapcsolat</a></li>
+        <li><a href="../HTML/regisztracio.html">Regisztráció</a></li>
+        
+          </div>
+      </ul>
+    </nav>
+  </div>
 
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
-	<h4 class="card-title mt-3 text-center">Create Account</h4>
-	<p class="text-center">Get started with your free account</p>
+	<h4 class="card-title mt-3 text-center">Fiók létrehozása</h4>
+	<p class="text-center">Regiszrálja ingyenes fiókját</p>
 	<p>
-		<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
-		<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
+		<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i> Bejelentkezés a Twitterel</a>
+		<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i> Bejelentkezés Facebookal</a>
 	</p>
 	<p class="divider-text">
         <span class="bg-light">OR</span>
@@ -51,13 +77,13 @@
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Full name" type="text">
+        <input name="" class="form-control" placeholder="Teljes név" type="text">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Email address" type="email">
+        <input name="" class="form-control" placeholder="E-mail cím" type="email">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
@@ -66,7 +92,7 @@
 		<select class="custom-select" style="max-width: 120px;">
 		    <option selected="">+36</option>
 		    </select>
-    	<input name="" class="form-control" placeholder="Phone number" type="text">
+    	<input name="" class="form-control" placeholder="Telefonszám" type="text">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	
@@ -76,18 +102,18 @@
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		</div>
-        <input class="form-control" placeholder="Create password" type="password">
+        <input class="form-control" placeholder="Jelszó létrehozása" type="password">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		</div>
-        <input class="form-control" placeholder="Repeat password" type="password">
+        <input class="form-control" placeholder="Jelszó újra" type="password">
     </div> <!-- form-group// -->                                      
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+        <button type="submit" class="btn btn-primary btn-block"> Fiók létrehozása  </button>
     </div> <!-- form-group// -->      
-    <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
+    <p class="text-center">Van fiókja? <a href="">Bejelentkezés</a> </p>                                                                 
 </form>
 </article>
 </div> <!-- card.// -->
@@ -95,17 +121,6 @@
 </div> 
 <!--container end.//-->
 
-<br><br>
-<article class="bg-secondary mb-3">  
-<div class="card-body text-center">
-    <h3 class="text-white mt-3">Bootstrap 4 UI KIT</h3>
-<p class="h5 text-white">Components and templates  <br> for Ecommerce, marketplace, booking websites 
-and product landing pages</p>   <br>
-<p><a class="btn btn-warning" target="_blank" href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com  
- <i class="fa fa-window-restore "></i></a></p>
-</div>
-<br><br>
-</article>
 
 </body>
 </html>
