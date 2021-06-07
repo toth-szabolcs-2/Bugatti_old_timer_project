@@ -28,3 +28,11 @@
     background-color: #42AEEC;
     color: #fff;
 }
+
+body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+
+.hatter{
+    background-color: lightgrey;
+}

@@ -1,0 +1,11 @@
+p {
+    text-align: center;
+  }
+
+img{
+    padding: 10px;
+}
+
+body{
+  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
