@@ -1,0 +1,2 @@
+# Bugatti_old_timer_project
+Saját továbbfejlesztett verztó
