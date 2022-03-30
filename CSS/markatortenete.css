@@ -1,8 +1,3 @@
-
-* {
-    margin:0;
-    padding:0;
-  }
   body{ 
   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
   
@@ -23,93 +18,8 @@
     width:80%;
     margin:5% auto;
     background-color: rgba(255, 255, 255, .25);
-    box-shadow: -2px -2px 5px white,2px -2px 5px white;
-  }
-  #nav0 {
-    width:100%;
-    display:flex;
-    max-height:60px;
-    background-color: black;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-  }
-  #logo {
-    line-height:60px;
-    font-size:30px;
-    padding: 0 50px;
-    color: white;
-    width:40%;
-    letter-spacing:2px;
-    text-shadow:2px 2px 5px;
-  }
-  #navul {
-    margin:0;
-    padding: 0;
-    list-style-type:none;
-    display:flex;
-    position:absolute;
-      right:50px;
-  /*   min-width:60%; */
-  }
-  #navul > li {
-    line-height:60px;
-    margin: 0 0px;
-    padding:0;
-    text-align:center;
-    display:inline-block;
-    
-  /*   background-color:green; */
-    min-width:120px;
-  
-  } 
-  #navul > li > a {
-    position:relative;
-  /*   background-color:red; */
-    margin: 0 20px;
-      color:white;
-  }
-  #navul > li:hover {
-    border-bottom: 2px solid white;
-    background-color: #0088ff;
-  }
-  #navul > .dropdown:hover {
-    border-bottom:none;
-  }
-  #navul > .dropdown:hover >  .dd
-  {
-    display:block;
-  }
-  .dropdown:hover > a .fa-caret-down {
-    display:none;
-  }
-  a {
-    text-decoration:none;
-  
   }
   
-  #navul > li > div {
-    position:absolute;
-    padding: 0 10px;
-    
-    background-color:black;
-    display:none;
-    background-color:aliceblue;
-    min-width:100px;
-  }
-  
-  #navul > li > div > ul {
-    margin:0px 0 10px 0;
-    padding:0;
-    list-style:none;
-  }
-  #u_a_c {
-    position:relative;
-    width:100%;
-  /*   background-color:red; */
-  }
   #up_arrow {
     position:relative;
     width:20px;
@@ -119,13 +29,7 @@
     background-color:aliceblue;
     transform:rotate(45deg);
   }
-  #navul > li> div > ul > li:hover {
-    background-color:rgba(0,0,0,0.2);
-  }
-  #navul > li > div > ul > li > a {
-    padding : 5px;
-      color:black;
-  }
+  
   .Tortenete{
       text-align: center;
   }
