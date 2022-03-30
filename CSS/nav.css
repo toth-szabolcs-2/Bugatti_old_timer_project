@@ -33,7 +33,7 @@
 /*   min-width:60%; */
 }
 
-#navul > li {
+.navitem {
   line-height:60px;
   margin: 0 0px;
   padding:0;
@@ -43,14 +43,14 @@
   min-width:120px;
 } 
 
-#navul > li > a {
+.navitem > a {
   position:relative;
 /*   background-color:red; */
   margin: 0 20px;
     color:white;
 }
 
-#navul > li:hover {
+.navitem:hover {
   border-bottom: 2px solid white;
   background-color: #0088ff;
 }
@@ -73,7 +73,7 @@ a {
 
 }
 
-#navul > li > div {
+.navitem > div {
   position:absolute;
   padding: 0 10px;
   
@@ -83,17 +83,17 @@ a {
   min-width:100px;
 }
 
-#navul > li > div > ul {
+.navitem > div > ul {
   margin:0px 0 10px 0;
   padding:0;
   list-style:none;
 }
 
-#navul > li> div > ul > li:hover {
+.navitem> div > ul > li:hover {
   background-color:rgba(0,0,0,0.2);
 }
 
-#navul > li > div > ul > li > a {
+.navitem > div > ul > li > a {
   padding : 5px;
     color:black;
 }
