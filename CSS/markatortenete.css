@@ -22,13 +22,19 @@
     position:relative;
     width:80%;
     margin:5% auto;
-    background-color:black;
+    background-color: rgba(255, 255, 255, .25);
     box-shadow: -2px -2px 5px white,2px -2px 5px white;
   }
-  #container > nav {
+  #nav0 {
     width:100%;
     display:flex;
     max-height:60px;
+    background-color: black;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
   }
   #logo {
     line-height:60px;
@@ -39,16 +45,16 @@
     letter-spacing:2px;
     text-shadow:2px 2px 5px;
   }
-  #container > nav > ul {
+  #navul {
     margin:0;
-    paddding:0;
+    padding: 0;
     list-style-type:none;
     display:flex;
     position:absolute;
       right:50px;
   /*   min-width:60%; */
   }
-  #container > nav > ul > li {
+  #navul > li {
     line-height:60px;
     margin: 0 0px;
     padding:0;
@@ -59,20 +65,20 @@
     min-width:120px;
   
   } 
-  #container > nav > ul > li > a {
+  #navul > li > a {
     position:relative;
   /*   background-color:red; */
     margin: 0 20px;
       color:white;
   }
-  #container > nav > ul > li:hover {
+  #navul > li:hover {
     border-bottom: 2px solid white;
     background-color: #0088ff;
   }
-  #container > nav > ul > .dropdown:hover {
+  #navul > .dropdown:hover {
     border-bottom:none;
   }
-  #container > nav > ul > .dropdown:hover >  .dd
+  #navul > .dropdown:hover >  .dd
   {
     display:block;
   }
@@ -84,7 +90,7 @@
   
   }
   
-  #container > nav > ul > li > div {
+  #navul > li > div {
     position:absolute;
     padding: 0 10px;
     
@@ -94,7 +100,7 @@
     min-width:100px;
   }
   
-  #container > nav > ul > li > div > ul {
+  #navul > li > div > ul {
     margin:0px 0 10px 0;
     padding:0;
     list-style:none;
@@ -113,10 +119,10 @@
     background-color:aliceblue;
     transform:rotate(45deg);
   }
-  #container > nav > ul > li> div > ul > li:hover {
+  #navul > li> div > ul > li:hover {
     background-color:rgba(0,0,0,0.2);
   }
-  #container > nav > ul > li > div > ul > li > a {
+  #navul > li > div > ul > li > a {
     padding : 5px;
       color:black;
   }
