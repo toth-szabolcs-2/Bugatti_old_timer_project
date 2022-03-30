@@ -3,7 +3,7 @@
   
     font-family: 'Raleway', sans-serif;
   }
-  #ribbon {
+  #ribbon { /*Not in use?*/
     position:absolute;
     background-color:red;
     color:white;
@@ -29,8 +29,8 @@
     background-color:aliceblue;
     transform:rotate(45deg);
   }
-  
-  .Tortenete{
-      text-align: center;
-  }
 
+  #content {
+    padding: 20px;
+    margin: 0px;
+  }
