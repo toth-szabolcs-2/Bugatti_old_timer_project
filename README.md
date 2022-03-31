@@ -6,3 +6,9 @@ Saját továbbfejlesztett verztó
   - 2022.04.01: Weblap 2.0
   - 2022.04.08: Content Update 1
   - Később: ?
+ 
+ ### Tenni valók:
+  - favicon
+  - Több tatralom
+  - bugattitype2, 37, 51, 57 konszolidálása _WIP_
+  - Kódtisztítás
