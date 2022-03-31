@@ -7,7 +7,7 @@ Saját továbbfejlesztett verztó
   - 2022.04.08: Content Update 1
   - Később: ?
  
- ### Tenni valók:
+ ### Tehendők:
   - favicon
   - Dolgozható keret letrehozása
   - Bővítés
