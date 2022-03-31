@@ -62,6 +62,7 @@
 #navul > .dropdown:hover >  .dd
 {
   display:block;
+  z-index: 4;
 }
 
 .dropdown:hover > a .fa-caret-down {
@@ -98,8 +99,12 @@ a {
     color:black;
 }
 
-#u_a_c {
+#up_arrow {
   position:relative;
-  width:100%;
-/*   background-color:red; */
+  width:20px;
+  height:20px;
+  left:42%;
+  top:-10px;
+  background-color:aliceblue;
+  transform:rotate(45deg);
 }
