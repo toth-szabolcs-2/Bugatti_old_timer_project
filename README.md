@@ -9,6 +9,10 @@ Saját továbbfejlesztett verztó
  
  ### Tenni valók:
   - favicon
+  - Dolgozható keret letrehozása
+  - Bővítés
   - Több tatralom
   - bugattitype2, 37, 51, 57 konszolidálása _WIP_
   - Kódtisztítás
+  - Képek átnevezése
+  - stb.
