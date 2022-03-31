@@ -15,4 +15,5 @@ Saját továbbfejlesztett verztó
   - bugattitype2, 37, 51, 57 konszolidálása _WIP_
   - Kódtisztítás
   - Képek átnevezése
+  - Jobb minőségű képek
   - stb.
