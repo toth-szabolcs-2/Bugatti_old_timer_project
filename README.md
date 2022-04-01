@@ -8,7 +8,6 @@ Saját továbbfejlesztett verztó
   - Később: ?
  
  ### Tehendők:
-  - favicon
   - Dolgozható keret letrehozása
   - Bővítés
   - Több tatralom
