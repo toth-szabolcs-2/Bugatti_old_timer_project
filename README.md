@@ -1,4 +1,4 @@
-# Bugatti_old_timer_project
+# Bugatti old timer project
 Saját továbbfejlesztett verztó
 
 ### Idővonal
