@@ -20,8 +20,9 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="../Képek/favicon.png"><title>Regisztráció</title>
   </head>
+
   <body>
-      <!--nav start-->
+    <!--nav start-->
     <nav id="nav0">
       <div id="logo">
         Bugatti Old Timer
@@ -46,62 +47,44 @@
     </nav>
     <!--nav end-->
     <div class="container contact-form">
-      <!--FTS!!!-->
-        <article class="card-body mx-auto" style="max-width: 400px;">
-          <h3 class="card-title mt-3 text-center">Fiók létrehozása</h3>
-          <p class="text-center">Regiszrálja ingyenes fiókját</p>
+      <article class="card-body mx-auto" style="max-width: 400px;">
+        <h3 class="card-title mt-3 text-center">Fiók létrehozása</h3>
+        <p class="text-center">Regiszrálja ingyenes fiókját</p>
           <form>
-          <div class="form-group input-group">
-            <div class="input-group-prepend">
-                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-            </div>
-                <input name="" class="form-control" placeholder="Teljes név" type="text">
+            <div class="form-group input-group">
+              <div class="input-group-prepend"><span class="input-group-text"> <i class="fa fa-user"></i></span></div>
+              <input name="NameOfPerson" class="form-control" placeholder="Teljes név" type="text">
             </div> <!-- form-group// -->
             <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
-            </div>
-                <input name="" class="form-control" placeholder="E-mail cím" type="email">
+              <div class="input-group-prepend"><span class="input-group-text"> <i class="fa fa-envelope"></i></span></div>
+              <input name="EmailOfPerson" class="form-control" placeholder="E-mail cím" type="email">
             </div> <!-- form-group// -->
             <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
-            </div>
-            <select class="custom-select" style="max-width: 120px;">
+              <div class="input-group-prepend"><span class="input-group-text"> <i class="fa fa-phone"></i> </span></div>
+              <select class="custom-select" style="max-width: 120px;">
                 <option selected="">+36</option>
-                </select>
-              <input name="" class="form-control" placeholder="Telefonszám" type="text">
+              </select>
+              <input name="PhoneNumberOfPerson" class="form-control" placeholder="Telefonszám" type="text">
             </div> <!-- form-group// -->
             <div class="form-group input-group">
-              
-            
-          </div> <!-- form-group end.// -->
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-            </div>
-                <input class="form-control" placeholder="Jelszó létrehozása" type="password">
-            </div> <!-- form-group// -->
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-            </div>
+              </div> <!-- form-group end.// -->
+                <div class="form-group input-group">
+                  <div class="input-group-prepend"><span class="input-group-text"> <i class="fa fa-lock"></i> </span></div>
+                  <input class="form-control" placeholder="Jelszó létrehozása" type="password">
+              </div> <!-- form-group// -->
+              <div class="form-group input-group">
+                <div class="input-group-prepend"><span class="input-group-text"> <i class="fa fa-lock"></i> </span> </div>
                 <input class="form-control" placeholder="Jelszó újra" type="password">
-            </div> <!-- form-group// -->                                      
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block"> Fiók létrehozása  </button>
-            </div> <!-- form-group// -->      
-            <p class="text-center">Van fiókja? <a href="">Bejelentkezés</a> </p>                                                                 
-        </form>
-        </article>
-        </div> <!-- card.// -->
-        </div> 
-        <!--container end.//-->
-    </div>
+              </div> <!-- form-group// -->                                      
+              <div class="form-group"> <button type="submit" class="btn btn-primary btn-block"> Fiók létrehozása  </button></div> <!-- form-group// -->      
+              <p class="text-center">Van fiókja? <a href="">Bejelentkezés</a> </p>                                                                 
+          </form>
+      </article> <!-- card.// -->
+    </div> <!--container end.//-->
+    
     <!-- Back to top button -->
       <button type="button" class="btn btn-success btn-floating btn-lg" id="btn-back-to-top" onclick="backToTop()">
         <i class="fas fa-arrow-up"></i>
       </button>
-    </body>
   </body>
 </html>
