@@ -12,6 +12,8 @@ a{
     position:relative;
     width:80%;
     margin:5% auto;
+    padding: 20px;
+    border-radius:  0.25rem;
     background-color: rgba(255, 255, 255, .25);
 }
 .contact-form{
@@ -71,3 +73,13 @@ a{
     display: none;
     z-index: 4;
 }
+.kepek{
+    background-color: #fff;
+    border-radius: 0.25rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.kepek > img{
+    max-width: 640px;
+}
+
