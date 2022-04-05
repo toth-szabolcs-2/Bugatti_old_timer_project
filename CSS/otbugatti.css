@@ -80,6 +80,8 @@ a{
     margin-top: 10px;
 }
 .kepek > img{
-    max-width: 640px;
+    max-width: 300px;
 }
-
+.asdf{
+    list-style-type: none;
+}
